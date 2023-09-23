@@ -1,36 +1,47 @@
 {
-	"format_version": 2,
-	"header": {
-		"description": "Replace blocks based on first hotbar slot (use settings to change method)",
-		"name": "Block_Fill_Paint",
-		"uuid": "604c1d4e-a905-4f69-9eb9-101179a69f87",
-		"version": [ 0,0,3 ],
-		"min_engine_version": [ 1, 19, 30 ]
-	},
-	"modules": [
-		{
-			"description": "",
-			"type": "data",
-			"uuid": "89d89682-79b0-45f4-b688-43193c3c5669",
-			"version": [0, 0, 1]
-		}
-	],
-	"subpacks": [
-		{
-			"folder_name": "subpack_1",
-			"name": "Cube around player",
-			"memory_tier": 1
-		},
-		{
-			"folder_name": "subpack_2",
-			"name": "Squid spawn egg",
-			"memory_tier": 2
-		},
-		{
-			"folder_name": "subpack_3",
-			"name": "Snowball",
-			"memory_tier": 3
-		}
-	]
+  "format_version": 2,
+  "header": {
+    "description": "Replace blocks based on first hotbar slot (use settings to change method)",
+    "name": "Block_Fill_Paint_v0.0.4",
+    "uuid": "9ac1af0c-ce6f-4a66-b31f-eda0aab5e03b",
+    "version": [
+      0,
+      0,
+      4
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      30
+    ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "data",
+      "uuid": "c41f11ab-cdbe-4433-8548-ab3ef125ed66",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "subpacks": [
+    {
+      "folder_name": "subpack_1",
+      "name": "Cube around player",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "subpack_2",
+      "name": "Squid spawn egg",
+      "memory_tier": 2
+    },
+    {
+      "folder_name": "subpack_3",
+      "name": "Snowball",
+      "memory_tier": 3
+    }
+  ]
 }
-
