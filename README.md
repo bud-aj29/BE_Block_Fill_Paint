@@ -1,8 +1,21 @@
-- Last tested 1.20.30
-- This behavior pack replaces blocks based on the contents of first hot-bar slot. 
-- **Replaces dirt, grass, stone and smooth stone.**
-- Change distribution method in active pack settings
-- For blocks with data values underneath direct item forms (e.g. planks, stone, slabs) place the respective stair type  for (building blocks) and desired dye color (for colored blocks) in the second hot-bar slot. This tells the pack which variant of those blocks you want.
+- Last tested 1.20.60
+- This behavior pack replaces blocks in the second hot-bar slot, with the block located in the first hot-bar slot
+- ***Give player "paint" tag to activate**
+- Changes in v0.0.5:
+  - Switched to scripts, removing the need for player.json
+  - Commands are only sent when the item is used. No spamming commands each tick with animation controllers
+  - All distribution types are available in game now. No longer requires pack setting changes
+  - Added splash potion as the trigger for cube around the player
+  - Added brush method for precise replacing
+- Use items below for different distribution methods. Each have different pros/cons. So try each:
+  - splash_potion: replaces a 5x5 cube around the player
+  - squid_spawn_egg: replaces a 5x5 cube around the block the egg was used on
+  - snowball: replaces a 5x5 cube around the block the snowball hits when thrown
+  - brush: replaces only the block the brush was used on
+- Water buckets, lava buckets, and powder snow buckets replace/replace-with those block types respectively. Empty buckets replace/replace-with air
 
-![paint_anim_1](https://user-images.githubusercontent.com/99773087/206453256-96e14ebb-aa05-444b-b985-77f47e8e02e7.gif)
-![Block_Fill_Paint_1](https://user-images.githubusercontent.com/99773087/206569468-fddddcd6-72b8-45c0-b430-4e2f0121c2b0.png)
+![Block_Fill_Paint_2](https://github.com/bud-aj29/BE_Block_Fill_Paint/assets/99773087/68c55ef2-c0f0-45cb-942f-133f94a16adc)
+
+![Block_Fill_Paint_4](https://github.com/bud-aj29/BE_Block_Fill_Paint/assets/99773087/3c355d30-af70-4a8f-8315-0a69c338a2b6)
+
+![Block_Fill_Paint_1](https://github.com/bud-aj29/BE_Block_Fill_Paint/assets/99773087/cb161e7d-fd23-4bc2-bb35-618c2ca22b09)
