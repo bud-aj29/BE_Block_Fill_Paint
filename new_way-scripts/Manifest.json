@@ -1,0 +1,38 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Replace blocks based on first hotbar slot",
+    "name": "Block_Fill_Paint_v0.0.5",
+    "uuid": "20e2f561-717b-4358-a67a-49cf3bec6569",
+    "version": [
+      0,
+      0,
+      5
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      60
+    ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/Block_Fill_Paint.js",
+      "uuid": "f782caeb-512a-4bcb-9eb5-b57f5881fb86",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0"
+    }
+  ]
+}
