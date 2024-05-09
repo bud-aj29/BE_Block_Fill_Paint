@@ -1,12 +1,8 @@
 - Last tested 1.20.60
 - This behavior pack replaces blocks in the second hot-bar slot, with the block located in the first hot-bar slot
 - ***Give player "paint" tag to activate**
-- Changes in v0.0.5:
-  - Switched to scripts, removing the need for player.json
-  - Commands are only sent when the item is used. No spamming commands each tick with animation controllers
-  - All distribution types are available in game now. No longer requires pack setting changes
-  - Added splash potion as the trigger for cube around the player
-  - Added brush method for precise replacing
+- Changes in v0.0.6:
+  - Renamed manifest file to fix bug loading on some OS
 - Use items below for different distribution methods. Each have different pros/cons. So try each:
   - splash_potion: replaces a 5x5 cube around the player
   - squid_spawn_egg: replaces a 5x5 cube around the block the egg was used on
